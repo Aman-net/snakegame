@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.6">
+	<title>Snake Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+	<div class="text-center flex-row">
+		<h3 class="alert-success">Snake Game</h3><br>
+	  <canvas id="snake" width="608" height="608"></canvas>
+	  <br><br><br>
+	  
+	</div>
+	<div class="text-center">
+		<button class="btn btn-lg btn-secondary" onclick="moveup()">UP</button>
+		<br><br>
+		<button class="btn btn-lg btn-secondary" onclick="moveleft()">LEFT</button>          &emsp;&emsp;&emsp;&emsp;&emsp;
+		<button class="btn btn-lg btn-secondary" onclick="moveright()">RIGHT</button>
+		<br><br>
+		<button class="btn btn-lg btn-secondary" onclick="movedown()">DOWN</button>
+	</div>
+	<footer class="modal-footer fixed-bottom">By : Aman Soni</footer>
+	<script type="text/javascript" src="snake.js"></script>
+</body>
+</html>
